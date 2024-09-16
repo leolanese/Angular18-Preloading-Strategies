@@ -13,6 +13,9 @@ This is the default preloading strategy.
 
 ![NoPreloading-Default](./src/app/assets/NoPreloading-Default.png)
 
+
+![NoPreloading-Default](./src/app/assets/NoPreloading-Default-metrics.png)
+
 ---
 
 ### Preloading all modules
@@ -31,6 +34,9 @@ export const appConfig: ApplicationConfig = {
 
 ![PreloadAllModules](./src/app/assets/PreloadAllModules.png)
 
+
+![PreloadAllModules-metrics](./src/app/assets/PreloadAllModules-metrics.png)
+
 ---
 
 ### Selective preloading (custom)
@@ -47,9 +53,11 @@ export const appConfig: ApplicationConfig = {
 
 ![Component1](./src//app//assets/PreloadingComponent1.png)
 
+![Component1-metrics](./src//app//assets/PreloadingComponent1-metrics.png)
+
 ---
 
-## Conlusion
+## Conclusion
 
 Regardless of which preloading strategy you use, the Angular CLI will generate separate chunks for each lazy-loaded module and component. This allows the application to be loaded and executed efficiently, even on slower devices or networks.
 
