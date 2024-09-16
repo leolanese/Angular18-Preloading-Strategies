@@ -13,6 +13,7 @@ This is the default preloading strategy.
 
 ![NoPreloading-Default](./src/app/assets/NoPreloading-Default.png)
 
+---
 
 ### Preloading all modules
 
@@ -30,7 +31,7 @@ export const appConfig: ApplicationConfig = {
 
 ![PreloadAllModules](./src/app/assets/PreloadAllModules.png)
 
-
+---
 
 ### Selective preloading (custom)
 
@@ -46,6 +47,7 @@ export const appConfig: ApplicationConfig = {
 
 ![Component1](./src//app//assets/PreloadingComponent1.png)
 
+---
 
 ## Conlusion
 
