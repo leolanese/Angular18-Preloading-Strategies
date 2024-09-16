@@ -6,7 +6,9 @@ import { Observable, of } from 'rxjs';
   providedIn: 'root'
 })
 export class FlagPreloadingStrategyService extends PreloadingStrategy {
-   preload(route: Route, load: () => Observable<any>): Observable<any> {
+
+   preload(route: Route, load: () => Observable<unknown>): Observable<unknown> {
       return route.data?.["preload"] === true ? load() : of(null);
-    }
+   }
+
 }
